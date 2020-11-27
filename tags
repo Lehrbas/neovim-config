@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+++	config/nvim/init.vim	/^nmap ++ <plug>NERDCommenterToggle$/;"	m
+++	config/nvim/init.vim	/^vmap ++ <plug>NERDCommenterToggle$/;"	m
+<C-d>	config/nvim/init.vim	/^nmap <silent> <C-d> <Plug>(coc-range-select)$/;"	m
+<C-d>	config/nvim/init.vim	/^xmap <silent> <C-d> <Plug>(coc-range-select)$/;"	m
+<C-n>	config/nvim/init.vim	/^nmap <C-n> :NERDTreeToggle<CR>$/;"	m
+<F2>	config/nvim/init.vim	/^nmap <F2> <Plug>(coc-rename)$/;"	m
+<S-TAB>	config/nvim/init.vim	/^inoremap <expr><S-TAB> pumvisible() ? "\\<C-p>" : "\\<C-h>"$/;"	m
+<TAB>	config/nvim/init.vim	/^inoremap <silent><expr> <TAB>$/;"	m
+<c-space>	config/nvim/init.vim	/^inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
+<cr>	config/nvim/init.vim	/^inoremap <expr> <cr> pumvisible() ? "\\<C-y>" : "\\<C-g>u\\<CR>"$/;"	m
+<leader>a	config/nvim/init.vim	/^nmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
+<leader>a	config/nvim/init.vim	/^xmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
+<leader>ac	config/nvim/init.vim	/^nmap <leader>ac  <Plug>(coc-codeaction)$/;"	m
+<leader>f	config/nvim/init.vim	/^nmap <leader>f  <Plug>(coc-format-selected)$/;"	m
+<leader>f	config/nvim/init.vim	/^xmap <leader>f  <Plug>(coc-format-selected)$/;"	m
+<leader>qf	config/nvim/init.vim	/^nmap <leader>qf  <Plug>(coc-fix-current)$/;"	m
+<space>a	config/nvim/init.vim	/^nnoremap <silent> <space>a  :<C-u>CocList diagnostics<cr>$/;"	m
+<space>c	config/nvim/init.vim	/^nnoremap <silent> <space>c  :<C-u>CocList commands<cr>$/;"	m
+<space>e	config/nvim/init.vim	/^nnoremap <silent> <space>e  :<C-u>CocList extensions<cr>$/;"	m
+<space>j	config/nvim/init.vim	/^nnoremap <silent> <space>j  :<C-u>CocNext<CR>$/;"	m
+<space>k	config/nvim/init.vim	/^nnoremap <silent> <space>k  :<C-u>CocPrev<CR>$/;"	m
+<space>o	config/nvim/init.vim	/^nnoremap <silent> <space>o  :<C-u>CocList outline<cr>$/;"	m
+<space>p	config/nvim/init.vim	/^nnoremap <silent> <space>p  :<C-u>CocListResume<CR>$/;"	m
+<space>s	config/nvim/init.vim	/^nnoremap <silent> <space>s  :<C-u>CocList -I symbols<cr>$/;"	m
+Fold	config/nvim/init.vim	/^command! -nargs=? Fold :call     CocAction('fold', <f-args>)$/;"	c
+Format	config/nvim/init.vim	/^command! -nargs=0 Format :call CocAction('format')$/;"	c
+IsNERDTreeOpen	config/nvim/init.vim	/^function! IsNERDTreeOpen()        $/;"	f
+K	config/nvim/init.vim	/^nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
+OR	config/nvim/init.vim	/^command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')$/;"	c
+Prettier	config/nvim/init.vim	/^command! -nargs=0 Prettier :CocCommand prettier.formatFile$/;"	c
+SyncTree	config/nvim/init.vim	/^function! SyncTree()$/;"	f
+[g	config/nvim/init.vim	/^nmap <silent> [g <Plug>(coc-diagnostic-prev)$/;"	m
+]g	config/nvim/init.vim	/^nmap <silent> ]g <Plug>(coc-diagnostic-next)$/;"	m
+af	config/nvim/init.vim	/^omap af <Plug>(coc-funcobj-a)$/;"	m
+af	config/nvim/init.vim	/^xmap af <Plug>(coc-funcobj-a)$/;"	m
+g:NERDTreeColorMapCustom	config/nvim/init.vim	/^let g:NERDTreeColorMapCustom = {$/;"	v
+g:NERDTreeGitStatusNodeColorization	config/nvim/init.vim	/^let g:NERDTreeGitStatusNodeColorization = 1$/;"	v
+g:NERDTreeGitStatusWithFlags	config/nvim/init.vim	/^let g:NERDTreeGitStatusWithFlags = 1$/;"	v
+g:NERDTreeIgnore	config/nvim/init.vim	/^let g:NERDTreeIgnore = ['^node_modules$']$/;"	v
+g:WebDevIconsUnicodeDecorateFolderNodes	config/nvim/init.vim	/^let g:WebDevIconsUnicodeDecorateFolderNodes = 1$/;"	v
+g:coc_global_extensions	config/nvim/init.vim	/^let g:coc_global_extensions = [$/;"	v
+g:ctrlp_user_command	config/nvim/init.vim	/^let g:ctrlp_user_command = ['.git\/', 'git --git-dir=%s\/.git ls-files -oc --exclude-standard']$/;"	v
+g:rubycomplete_classes_in_global	config/nvim/init.vim	/^let g:rubycomplete_classes_in_global = 1$/;"	v
+g:rubycomplete_rails	config/nvim/init.vim	/^let g:rubycomplete_rails = 1$/;"	v
+gd	config/nvim/init.vim	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
+gi	config/nvim/init.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gr	config/nvim/init.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+gy	config/nvim/init.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+if	config/nvim/init.vim	/^omap if <Plug>(coc-funcobj-i)$/;"	m
+if	config/nvim/init.vim	/^xmap if <Plug>(coc-funcobj-i)$/;"	m
+j	config/nvim/init.vim	/^noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')$/;"	m
+jk	config/nvim/init.vim	/^inoremap jk <ESC>$/;"	m
+k	config/nvim/init.vim	/^noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')$/;"	m
+mygroup	config/nvim/init.vim	/^augroup mygroup$/;"	a
+neovim-config	README.md	/^# neovim-config$/;"	c
+s:check_back_space	config/nvim/init.vim	/^function! s:check_back_space() abort$/;"	f
+s:show_documentation	config/nvim/init.vim	/^function! s:show_documentation()$/;"	f
