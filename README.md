@@ -14,5 +14,9 @@ Neovim init file for a really nice NeoVim
  - Vim-tmux-navigator
  - Vim-gutentags
 
-#Theme:
+# Theme:
  Gruvbox
+
+# Ruby
+- For ruby auto-completion and definition jumping install the ruby-provider
+
